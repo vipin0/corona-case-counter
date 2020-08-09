@@ -1,0 +1,174 @@
+.navbar-brand {
+    
+    font-family: 'Fira Code', monospace;
+  }
+
+  #link:hover{
+  	/*font-size: 125%;*/
+  	background:rgb(102, 153, 153);
+  	color:rgb(255, 255, 255);
+  	text-decoration: none;
+
+  }
+
+  .site-stats {
+  padding: 0px 0; }
+  .site-stats .site-stats-count {
+    text-align: right;
+    position: relative; }
+    .site-stats .site-stats-count ul {
+      padding: 0;
+      margin: 10px 0; }
+      .site-stats .site-stats-count ul li {
+        list-style: none;
+        display: inline-block;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin: 0 6px;
+        width: 14.5%;
+        padding: 18px 0; }
+        .site-stats .site-stats-count ul li strong {
+          display: block;
+          margin: 6px 0;
+          font-size: 30px;
+          line-height: 30px; }
+        .site-stats .site-stats-count ul li span {
+          font-size: 16px;
+          font-weight: bold; }
+        .site-stats .site-stats-count ul li.bg-blue {
+          color: #002c56;
+          background: #a5c9fd;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #a5c9fd 0%, #a5c9fd 6%, #a7cbff 8%, #a5c9fd 11%, #a7cbff 11%, #aacffc 28%, #b0d5ff 44%, #b0d6fb 48%, #b5dbff 62%, #b4dbfc 62%, #b8dffe 75%, #bae2fb 79%, #bce4fe 91%, #bde6fa 96%, #bee7fd 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #a5c9fd 0%, #a5c9fd 6%, #a7cbff 8%, #a5c9fd 11%, #a7cbff 11%, #aacffc 28%, #b0d5ff 44%, #b0d6fb 48%, #b5dbff 62%, #b4dbfc 62%, #b8dffe 75%, #bae2fb 79%, #bce4fe 91%, #bde6fa 96%, #bee7fd 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.bg-orange {
+          color: #582700;
+          background: #f5ce67;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #f5ce67 0%, #f8cd67 4%, #f6cc66 7%, #f7cb6c 13%, #f5c66c 21%, #f8c76b 23%, #f7c570 27%, #f7c36f 33%, #f9c174 39%, #f8bf72 40%, #f9ba73 47%, #f9ba77 52%, #fdb877 56%, #fab677 57%, #f9b479 60%, #fab17c 67%, #fcb17a 69%, #fbaf7e 74%, #fcab7c 77%, #fcab7e 84%, #fdaa82 85%, #fca683 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #f5ce67 0%, #f8cd67 4%, #f6cc66 7%, #f7cb6c 13%, #f5c66c 21%, #f8c76b 23%, #f7c570 27%, #f7c36f 33%, #f9c174 39%, #f8bf72 40%, #f9ba73 47%, #f9ba77 52%, #fdb877 56%, #fab677 57%, #f9b479 60%, #fab17c 67%, #fcb17a 69%, #fbaf7e 74%, #fcab7c 77%, #fcab7e 84%, #fdaa82 85%, #fca683 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.bg-red {
+          color: #5a0502;
+          background: #ff8582;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #ff8582 0%, #fe8685 16%, #ff908e 44%, #fe908f 53%, #ff9692 62%, #ff9597 67%, #ff9a98 84%, #ff9b9b 85%, #fe9c9d 91%, #ff9e98 96%, #ff9d9c 96%, #ff9e9d 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #ff8582 0%, #fe8685 16%, #ff908e 44%, #fe908f 53%, #ff9692 62%, #ff9597 67%, #ff9a98 84%, #ff9b9b 85%, #fe9c9d 91%, #ff9e98 96%, #ff9d9c 96%, #ff9e9d 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.bg-green {
+          color: #015b25;
+          background: #9ae69c;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #9ae69c 0%, #9ce999 5%, #9cea9e 6%, #9cea9e 6%, #a0e99a 10%, #a3eb95 24%, #adee92 36%, #adee90 40%, #b3ef8f 45%, #b0f08f 46%, #b4f18a 50%, #b7f18d 51%, #b6f08a 53%, #baf18b 58%, #c4f780 77%, #c9f681 86%, #ccfa7e 90%, #cbf77c 94%, #cff87e 96%, #cff87e 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #9ae69c 0%, #9ce999 5%, #9cea9e 6%, #9cea9e 6%, #a0e99a 10%, #a3eb95 24%, #adee92 36%, #adee90 40%, #b3ef8f 45%, #b0f08f 46%, #b4f18a 50%, #b7f18d 51%, #b6f08a 53%, #baf18b 58%, #c4f780 77%, #c9f681 86%, #ccfa7e 90%, #cbf77c 94%, #cff87e 96%, #cff87e 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.icon-dashboard {
+          position: relative;
+          padding: 0;
+          top: 5px; }
+          .site-stats .site-stats-count ul li.icon-dashboard a {
+            display: block;
+            margin: 0 0 8px; }
+            .site-stats .site-stats-count ul li.icon-dashboard a:last-child {
+              margin: 0; }
+    .site-stats .site-stats-count .status-update {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 230px;
+      text-align: left;
+      letter-spacing: -0.5px;
+      transform: translateY(-50%); }
+      .site-stats .site-stats-count .status-update h2 {
+        text-transform: uppercase;
+        color: #4f514f;
+        margin: 0;
+        line-height: 24px; }
+        .site-stats .site-stats-count .status-update h2 span {
+          display: block;
+          font-size: 14px;
+          font-family: "robotoregular";
+          font-weight: normal;
+          text-transform: none; }
+
+          .site-update {
+  background-color: #eef3f7;
+  padding: 0px 0 20px;
+  position: relative; }
+  .site-update:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: #d7d7d7;
+    width: 1140px;
+    height: 1px; }
+  .site-update .update-box {
+    width: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 18px;
+    margin: 0 0 30px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .site-update .update-box p {
+      overflow: hidden;
+      line-height: 20px; }
+      .site-update .update-box p a {
+        float: left;
+        display: block;
+        width: calc(100% - 85px);
+        color: #000; }
+      .site-update .update-box p strong {
+        width: 85px;
+        float: left;
+        display: block;
+        color: #0f70ce; }
+    .site-update .update-box:hover {
+      background-color: #0f70ce; }
+      .site-update .update-box:hover a {
+        color: #fff;
+        text-decoration: underline; }
+      .site-update .update-box:hover strong {
+        color: #f5d92f; }
+
+        .site-stats .site-stats-count ul li.bg-blue {
+          color: #002c56;
+          background: #a5c9fd;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #a5c9fd 0%, #a5c9fd 6%, #a7cbff 8%, #a5c9fd 11%, #a7cbff 11%, #aacffc 28%, #b0d5ff 44%, #b0d6fb 48%, #b5dbff 62%, #b4dbfc 62%, #b8dffe 75%, #bae2fb 79%, #bce4fe 91%, #bde6fa 96%, #bee7fd 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #a5c9fd 0%, #a5c9fd 6%, #a7cbff 8%, #a5c9fd 11%, #a7cbff 11%, #aacffc 28%, #b0d5ff 44%, #b0d6fb 48%, #b5dbff 62%, #b4dbfc 62%, #b8dffe 75%, #bae2fb 79%, #bce4fe 91%, #bde6fa 96%, #bee7fd 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.bg-orange {
+          color: #582700;
+          background: #f5ce67;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #f5ce67 0%, #f8cd67 4%, #f6cc66 7%, #f7cb6c 13%, #f5c66c 21%, #f8c76b 23%, #f7c570 27%, #f7c36f 33%, #f9c174 39%, #f8bf72 40%, #f9ba73 47%, #f9ba77 52%, #fdb877 56%, #fab677 57%, #f9b479 60%, #fab17c 67%, #fcb17a 69%, #fbaf7e 74%, #fcab7c 77%, #fcab7e 84%, #fdaa82 85%, #fca683 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #f5ce67 0%, #f8cd67 4%, #f6cc66 7%, #f7cb6c 13%, #f5c66c 21%, #f8c76b 23%, #f7c570 27%, #f7c36f 33%, #f9c174 39%, #f8bf72 40%, #f9ba73 47%, #f9ba77 52%, #fdb877 56%, #fab677 57%, #f9b479 60%, #fab17c 67%, #fcb17a 69%, #fbaf7e 74%, #fcab7c 77%, #fcab7e 84%, #fdaa82 85%, #fca683 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.bg-red {
+          color: #5a0502;
+          background: #ff8582;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #ff8582 0%, #fe8685 16%, #ff908e 44%, #fe908f 53%, #ff9692 62%, #ff9597 67%, #ff9a98 84%, #ff9b9b 85%, #fe9c9d 91%, #ff9e98 96%, #ff9d9c 96%, #ff9e9d 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #ff8582 0%, #fe8685 16%, #ff908e 44%, #fe908f 53%, #ff9692 62%, #ff9597 67%, #ff9a98 84%, #ff9b9b 85%, #fe9c9d 91%, #ff9e98 96%, #ff9d9c 96%, #ff9e9d 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .site-stats .site-stats-count ul li.bg-green {
+          color: #015b25;
+          background: #9ae69c;
+          /* Old browsers */
+          background: -webkit-linear-gradient(top, #9ae69c 0%, #9ce999 5%, #9cea9e 6%, #9cea9e 6%, #a0e99a 10%, #a3eb95 24%, #adee92 36%, #adee90 40%, #b3ef8f 45%, #b0f08f 46%, #b4f18a 50%, #b7f18d 51%, #b6f08a 53%, #baf18b 58%, #c4f780 77%, #c9f681 86%, #ccfa7e 90%, #cbf77c 94%, #cff87e 96%, #cff87e 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, #9ae69c 0%, #9ce999 5%, #9cea9e 6%, #9cea9e 6%, #a0e99a 10%, #a3eb95 24%, #adee92 36%, #adee90 40%, #b3ef8f 45%, #b0f08f 46%, #b4f18a 50%, #b7f18d 51%, #b6f08a 53%, #baf18b 58%, #c4f780 77%, #c9f681 86%, #ccfa7e 90%, #cbf77c 94%, #cff87e 96%, #cff87e 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }

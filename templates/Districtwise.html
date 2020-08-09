@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %} District Wise Case | {{ stateName }}{% endblock %}
+{% block main %}
+<br>
+    <div class="container">
+    <h2 id="statename" class="text-center highlight_text">State : {{ stateName }}</h2><br>
+        <p>** <strong>&#8593;</strong> Indicates the today's status.</p>
+    <table class="table table-striped table-bordered table-responsive-sm mb-4">
+        <thead class="w3-blue">
+        <th>S. No.</th>
+        <th>Name District</th>
+        <th>Total Confirmed cases</th>
+        <th>Active </th>
+        <th>Cured/Discharged/ Migrated</th>
+        <th>Deaths</th>
+        </thead>
+        <tbody id="data" class="text-center">
+            {% set count = namespace(value=1) %}
+            {% for data in state.keys() %}
+                <tr>
+                    {% if data.strip() == 'Total' %}
+                        <td>-</td>
+                    {% else %}
+                        <td>{{ count.value }}</td>
+                    {% endif %}
+                    <td>{{ data }}</td>
+                    <td>{{ state[data]["confirmed"] }}&nbsp;&nbsp;<span class="text-danger">&#8593; {{ state[data]["delta"]["confirmed"] }}</span></td>
+                    <td>{{ state[data]["active"] }}</td>
+                    <td>{{ state[data]["recovered"] }}&nbsp;&nbsp;<span class="text-success">&#8593; {{ state[data]["delta"]["recovered"] }}</span></td>
+                    <td>{{ state[data]["deceased"] }}&nbsp;&nbsp;<span class="text-danger">&#8593; {{ state[data]["delta"]["deceased"] }}</span></td>
+                </tr>
+                {% set count.value = count.value + 1 %}
+            {% endfor %}
+        </tbody>
+        <tfoot id="totaldata" class="text-center w3-red">
+        </tfoot>
+    </table>
+    <!-- <p>Last Fetched : <span id="date"></span></p> -->
+    <p>* The data is being fetched from <a href="https://covid19india.org/" target="_blank" style="text-decoration: None">Mcovid19india's Website.</a></p>
+</div>
+
+{% endblock %}
