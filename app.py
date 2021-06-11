@@ -23,7 +23,7 @@ def hello_world():
 
     js = urlopen(req, context=ctx, timeout=20).read()
     js1 = json.loads(js)
-    return render_template('main.html', data=js1["statewigse"], timestamp=js1["statewgise"][0]["lastupdatedtime"])
+    return render_template('main.html', data=js1["statewise"], timestamp=js1["statewise"][0]["lastupdatedtime"])
 
 
 @app.route('/get-data/')
